@@ -2,7 +2,7 @@ body{
   background-color: #778899 ;
 }
 .diving{
-  margin-top: 60px;
+  margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -211,7 +211,7 @@ radial-gradient(at 55% 24%, hsla(138,60%,62%,1) 0px, transparent 50%);
       display: flex;
       align-items: center;
       justify-content: center;
-      margin: 60px auto;
+      margin: 50px auto;
       --glow-color: rgb(255, 176, 176);
       --glow-spread-color: rgba(255, 123, 123, 0.781);
       --enhanced-glow-color: rgb(255, 206, 206);

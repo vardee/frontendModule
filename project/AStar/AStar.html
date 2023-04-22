@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+    <meta charset="UTF-8">
+    <title>aStar</title>
+    <link rel="stylesheet" href="displayElements.css">
+    <link rel="stylesheet" href="controlElements.css">
+</head>
+<body>
+<a href="../../index.html">
+    <button id="homeBtn">
+        <i class="fa fa-home"></i>
+    </button>
+</a>
+<div class="container">
+    <h1 id="aStar">A* (A - star)</h1>
+    <table id="myTable" class=table></table>
+    <div id="textArea"></div>
+    <div id="buttons">
+        <button id="createWallModeBtn">Create wall</button>
+        <button id="setStartBtn"> Set start</button>
+        <button id="setEndBtn"> Set end</button>
+        <button id="createMazeBtn">Create maze</button>
+        <button id="findPathBtn">Find path</button>
+    </div>
+    <script src="AStar.js"></script>
+    <input placeholder="Размер лабиринта" type="number" id="myNumberInput" onkeydown="if(event.keyCode===13) createTable()">
+</div>
+</body>
+</html>
+v
+

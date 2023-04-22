@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Муравьиный алгоритм</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/stylesAnt.css">
+</head>
+<body>
+	<div style="cursor: pointer;" onclick="window.location='../../index.html';">
+		<button class="btn"><i class="fa fa-home"></i></button>
+	</div>
+	<div id="fullBody">
+		<div id = "mainAlg">Ant algorithm</div>
+		<canvas id="canvas1" width="500px" height="500px">
+			Your browser does not support the HTML5 canvas tag.
+		</canvas>
+		<div id="btn">
+			<button onclick="antAlgorithm();" type="button" id="Result">Start</button>
+			<button onclick="clearing();" type="button" id="Clearing">Clear</button>
+		</div>
+		<div id="print">
+			<p class="thead"></p>
+		</div>
+	</div>
+	<script src="js/ant.js"></script>
+	<script src = "js/antalgorythm.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Genetic</title>
+    <link rel="stylesheet" href="geneticStyles.css">
+    <div></div>
+</head>
+<body>
+    <a href="../../index.html">
+        <button id="homeBtn">
+            <i class="fa fa-home"></i>
+    </button>
+    </a>
+    <div id="blockBody">
+        <div id = "mainAlg">Genetic algorithm</div>
+        <canvas id="canvas" width="500" height="500">
+            Your browser does not support the HTML5 canvas tag.
+        </canvas>
+        <div class="btn">
+            <button onclick="geneticAlgorithm();" type="button" id="Result">Find path</button>
+            <button onclick="erase();" type="button" id="Erase">Clear</button>
+        </div>
+        <div id="output">
+            <p class="thead"></p>
+        </div>
+    </div>
+    <script src = "geneticScript.js"></script>
+</body>
+</html>
